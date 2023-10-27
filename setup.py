@@ -1,3 +1,4 @@
+# if somebody else wants to install my package then ->
 from setuptools import find_packages,setup
 from typing import List
 
@@ -15,10 +16,23 @@ def get_requirements(file_path:str)->List[str]:
     return requirements
 
 setup(
-    name='DimondPricePrediction',
+    name='DiamondPricePrediction',
     version='0.0.1',
     author='sunny savita',
     author_email='sunny.savita@ineuron.ai',
     install_requires=get_requirements('requirements.txt'),
     packages=find_packages()
 )
+
+# If i want to install my local package 
+"""
+from setuptools import find_packages,setup
+
+setup(
+    name='DiamondPricePrediction',
+    version='0.0.1',
+    author='sunny savita',
+    author_email='sunny.savita@ineuron.ai',
+    packages=find_packages()
+)
+"""

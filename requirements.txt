@@ -2,5 +2,5 @@ pandas
 scikit-learn
 numpy
 
-
--e .
+-e . 
+# e -> editable, . means current directory
