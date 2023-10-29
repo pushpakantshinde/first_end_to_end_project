@@ -1,4 +1,4 @@
-# if somebody else wants to install my package then ->
+# if somebody else wants to install my package in their project then ->
 from setuptools import find_packages,setup
 from typing import List
 
