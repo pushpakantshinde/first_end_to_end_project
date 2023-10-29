@@ -1,6 +1,7 @@
 pandas
 scikit-learn
 numpy
+# we can install ipykernel though this file itself which we have installed seperately
 
 -e . 
 # e -> editable, . means current directory
