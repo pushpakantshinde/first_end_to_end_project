@@ -1,7 +1,8 @@
 pandas
 scikit-learn
 numpy
+seaborn
 # we can install ipykernel though this file itself which we have installed seperately
 
--e . 
+#-e . 
 # e -> editable, . means current directory
