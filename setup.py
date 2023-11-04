@@ -1,6 +1,9 @@
+""""
+
 # if somebody else wants to install my package in their project then ->
 from setuptools import find_packages,setup
 from typing import List
+
 
 HYPEN_E_DOT='-e .'
 
@@ -24,8 +27,10 @@ setup(
     packages=find_packages()
 )
 
-# If i want to install my local package 
 """
+
+# If i want to install my local package 
+
 from setuptools import find_packages,setup
 
 setup(
@@ -33,6 +38,6 @@ setup(
     version='0.0.1',
     author='sunny savita',
     author_email='sunny.savita@ineuron.ai',
+    install_requires=get_requirements('requirements.txt'),
     packages=find_packages()
 )
-"""
