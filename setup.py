@@ -34,10 +34,10 @@ setup(
 from setuptools import find_packages,setup
 
 setup(
-    name='DiamondPricePrediction',
+    name='DimondPricePrediction',
     version='0.0.1',
-    author='sunny savita',
-    author_email='sunny.savita@ineuron.ai',
-    install_requires=get_requirements('requirements.txt'),
+    author='Pushpakant Shinde',
+    author_email='pushpakantshinde@gmail.com',
+    #install_requires=["scikit-learn","pandas","numpy"],
     packages=find_packages()
 )
